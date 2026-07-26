@@ -8,10 +8,9 @@ from urllib.parse import quote_plus
 
 from datetime import datetime
 
-username = "ADMIN"
-#password = quote_plus("Admin123@")
 
-uri = "mongodb+srv://ADMIN:Admin123@cluster0.vvmibrv.mongodb.net/?appName=Cluster0"
+
+uri = "mongodb+srv://USERNAME:PASSWORD@cluster0.xxxxx.mongodb.net/"
 
 client = MongoClient(uri)
 
