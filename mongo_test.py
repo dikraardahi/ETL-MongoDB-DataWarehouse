@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 
-uri = "mongodb+srv://ADMIN:Admin123@cluster0.vvmibrv.mongodb.net/?appName=Cluster0"
+uri = "mongodb+srv://USERNAME:PASSWORD@cluster0.xxxxx.mongodb.net/"
 
 client = MongoClient(uri)
 
